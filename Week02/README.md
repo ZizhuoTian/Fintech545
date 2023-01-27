@@ -16,8 +16,8 @@ If you get an error on missing libraries, install the missing package in the ter
 
 # python packages
 The python packages used in this project include:
-* pandas: commonly used for tabular data analysis
-* numpy: scientific computing package
-* scipy: statistical computing package
-* matploblib: plotting & visualization
-* seaborn: plotting & visualization
+* `pandas`: commonly used for tabular data analysis
+* `numpy`: scientific computing package
+* `scipy`: statistical computing package
+* `matploblib`: plotting & visualization
+* `seaborn`: plotting & visualization
