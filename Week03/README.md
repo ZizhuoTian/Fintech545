@@ -20,4 +20,4 @@ The python packages used in this project include:
 * `numpy`: scientific computing package
 * `scipy`: statistical computing package
 * `matploblib`: plotting & visualization
-* `seaborn`: plotting & visualization
+* `sklearn.decomposition`: statistical model package
