@@ -25,12 +25,9 @@ def ledoit_wolf_shrinkage(returns):
 
     return shrunk_cov
 
-def fit_generalized_t(returns):
-    sample_mean = np.mean(returns)
-    sample_std = np.std(returns, ddof=1)
-    sample_var = sample_std ** 2
-    n = len(returns)
-    p = 3
+def fit_t_distribution(stock_returns):
+    df, loc, scale = stats.t.fit(stock_returns)
+    return stats.t(df, loc=loc, scale=scale)
 
     def objective_function(params):
         nu, mu, sigma = params
